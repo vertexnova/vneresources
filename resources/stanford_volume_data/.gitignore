@@ -1,0 +1,2 @@
+# Uncompressed tar intermediates (too large for GitHub; ship .tar.gz only).
+*.tar
