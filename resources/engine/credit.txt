@@ -1,0 +1,5 @@
+Dragster engine
+Author CHRIS KUHN (BLEND SWAP)
+Reworked for ObjReader by Patrice Terrier
+https://www.blendswap.com/blends/view/84608
+
