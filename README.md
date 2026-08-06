@@ -10,8 +10,14 @@ resources/
 ├── meshes/          # Standalone mesh files (.ply, .stl, .obj)
 ├── materials/       # PBR (Physically Based Rendering) material texture sets
 └── textures/        # Standalone texture images
+
+image_comparison/
+└── vnegfx/          # Golden reference images for vnegfx black-box image comparison
+    └── [<group>/]<backend>/<leaf>_{color,depth}.png
 ```
 
 ## Usage
 
 This repository can be cloned as a submodule or referenced directly by the VertexNova project to access test assets and resources during development and testing.
+
+vnegfx mounts it at `testdata/vneresources`. Image-comparison goldens live under `image_comparison/vnegfx/`.
