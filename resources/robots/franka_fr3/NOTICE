@@ -1,0 +1,19 @@
+Franka Research 3 (FR3) visual meshes
+=====================================
+
+The `fr3_link0.usd` through `fr3_link7.usd` files are flattened per-link extracts
+from the official FR3 USD published by Franka Robotics:
+
+    https://franka.de/3d-assets
+    https://franka.de/hubfs/FR3.usd
+
+They are produced by `import_official_fr3_usd.py` in this directory. The source file
+is verified with SHA-256 before extraction. The viewer imports links 0 through 7
+and retains its seven-joint interactive kinematic chain.
+
+Joint origins and limits come from the Apache-2.0 `franka_description` package:
+
+    https://github.com/frankarobotics/franka_description
+    commit 7aeeddc449edf8d62b594f9e36a81da53e7796f9
+
+Copyright (c) Franka Robotics GmbH.
